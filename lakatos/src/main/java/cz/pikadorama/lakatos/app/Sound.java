@@ -6,58 +6,64 @@ import java.util.List;
 import cz.pikadorama.lakatos.R;
 
 public enum Sound {
-        ABYCH(R.raw.abych_mohl_toto, "Abys mohl toto!"),
-        ANIOCKO(R.raw.ani_ocko_nenasadis, "Ani očko nenasadíš!"),
-        ANIZAKOKOT(R.raw.ani_za_kokot_vole, "Ani za kokot vole!"),
-        BANALNI(R.raw.banalni_vec, "Banální věc!"),
-        DOPICE(R.raw.do_pice, "Do piče!"),
-        HAZLI(R.raw.hajzli_jedni, "Hajzli jedni!"),
-        HOSI(R.raw.hosi_to_je_neuveritelne, "Hoši, toto je neuvěřitelné!"),
-        JASEPOJEBAT(R.raw.ja_se_z_toho_musim_pojebat, "Já se z toho musim pojebat!"),
-        JATOMRDAM(R.raw.ja_to_mrdam, "Já to mrdám!"),
-        JATONEJDUDELAT(R.raw.ja_to_nejdu_delat, "Já to nejdu dělat!"),
-        JEDINOUPICOVINKU(R.raw.jedinou_picovinku, "Jedinou pičovinku!"),
-        JEDUDOPICI(R.raw.jedu_do_pici_stadyma, "Jedu do piči!"),
-        KURVA(R.raw.kurva, "KURVA!"),
-        KURVADOPICE(R.raw.kurva_do_pice_to_neni_mozne, "To není možné!"),
-        KURVAUZ(R.raw.kurva_uz, "Kurva už!"),
-        NENENASADIS(R.raw.ne_nenasadis_ho, "Ne, nenasadíš ho!"),
-        NEBUDU(R.raw.nebudu_to_delat, "Nebudu to dělat!"),
-        NEJVETSI(R.raw.nejvetsi_blbec_na_zemekouli, "Největší blbec na zeměkouli!"),
-        NENASADIM(R.raw.nenasadim, "Nenasadím!"),
-        NERESITELNY(R.raw.neresitelny_problem_hosi, "Neřešitelný problém hoši!"),
-        NEVIMJAK(R.raw.nevim_jak, "Nevim jak!"),
-        OKAMZITE(R.raw.okamzite_zabit_ty_kurvy, "Okamžitě zabít ty kurvy!"),
-        PASTVEDLE(R.raw.past_vedle_pasti_pico, "Past vedle pasti!"),
-        POCKEJKAMO(R.raw.pockej_kamo, "Počkej kámo!"),
-        TADYMUSIS(R.raw.tady_musis_vsechno_rozdelat, "Tady musíš všechno rozdělat!"),
-        TOJEPICO(R.raw.to_je_pico_nemozne, "To je nemožné!"),
-        TONENI(R.raw.to_neni_normalni_kurva, "To neni normální!"),
-        TOSOU(R.raw.to_sou_nervy_ty_pico, "To sou nervy ty pičo!"),
-        TUTOPICU(R.raw.tuto_picu_potrebuju_utahnout, "Tuto piču potřebuju utáhnout!"),
-        ZASRANE(R.raw.zasrane_zamrdane, "Zasrané, zamrdané!");
+    ABYCH(R.raw.abych_mohl_toto, "Abys mohl toto!", "http://milujipraci.cz/#15"),
+    ANIOCKO(R.raw.ani_ocko_nenasadis, "Ani očko nenasadíš!", "http://milujipraci.cz/#16"),
+    ANIZAKOKOT(R.raw.ani_za_kokot_vole, "Ani za kokot vole!", "http://milujipraci.cz/#00"),
+    BANALNI(R.raw.banalni_vec, "Banální věc!", "http://milujipraci.cz/#17"),
+    DOPICE(R.raw.do_pice, "Do piče!", "http://milujipraci.cz/#01"),
+    HAZLI(R.raw.hajzli_jedni, "Hajzli jedni!", "http://milujipraci.cz/#02"),
+    HOSI(R.raw.hosi_to_je_neuveritelne, "Hoši, toto je neuvěřitelné!", "http://milujipraci.cz/#03"),
+    JASEPOJEBAT(R.raw.ja_se_z_toho_musim_pojebat, "Já se z toho musim pojebat!", "http://milujipraci.cz/#04"),
+    JATOMRDAM(R.raw.ja_to_mrdam, "Já to mrdám!", "http://milujipraci.cz/#05"),
+    JATONEJDUDELAT(R.raw.ja_to_nejdu_delat, "Já to nejdu dělat!", "http://milujipraci.cz/#18"),
+    JEDINOUPICOVINKU(R.raw.jedinou_picovinku, "Jedinou pičovinku!", "http://milujipraci.cz/#06"),
+    JEDUDOPICI(R.raw.jedu_do_pici_stadyma, "Jedu do piči!", "http://milujipraci.cz/#07"),
+    KURVA(R.raw.kurva, "KURVA!", "http://milujipraci.cz/#08"),
+    KURVADOPICE(R.raw.kurva_do_pice_to_neni_mozne, "To není možné!", "http://milujipraci.cz/#09"),
+    KURVAUZ(R.raw.kurva_uz, "Kurva už!", "http://milujipraci.cz/#19"),
+    NENENASADIS(R.raw.ne_nenasadis_ho, "Ne, nenasadíš ho!", "http://milujipraci.cz/#20"),
+    NEBUDU(R.raw.nebudu_to_delat, "Nebudu to dělat!", "http://milujipraci.cz/#10"),
+    NEJVETSI(R.raw.nejvetsi_blbec_na_zemekouli, "Největší blbec na zeměkouli!", "http://milujipraci.cz/#21"),
+    NENASADIM(R.raw.nenasadim, "Nenasadím!", "http://milujipraci.cz/#22"),
+    NERESITELNY(R.raw.neresitelny_problem_hosi, "Neřešitelný problém hoši!", "http://milujipraci.cz/#23"),
+    NEVIMJAK(R.raw.nevim_jak, "Nevim jak!", "http://milujipraci.cz/#24"),
+    OKAMZITE(R.raw.okamzite_zabit_ty_kurvy, "Okamžitě zabít ty kurvy!", "http://milujipraci.cz/#25"),
+    PASTVEDLE(R.raw.past_vedle_pasti_pico, "Past vedle pasti!", "http://milujipraci.cz/#11"),
+    POCKEJKAMO(R.raw.pockej_kamo, "Počkej kámo!", "http://milujipraci.cz/#26"),
+    TADYMUSIS(R.raw.tady_musis_vsechno_rozdelat, "Tady musíš všechno rozdělat!", "http://milujipraci.cz/#27"),
+    TOJEPICO(R.raw.to_je_pico_nemozne, "To je nemožné!", "http://milujipraci.cz/#12"),
+    TONENI(R.raw.to_neni_normalni_kurva, "To neni normální!", "http://milujipraci.cz/#13"),
+    TOSOU(R.raw.to_sou_nervy_ty_pico, "To sou nervy ty pičo!", "http://milujipraci.cz/#14"),
+    TUTOPICU(R.raw.tuto_picu_potrebuju_utahnout, "Tuto piču potřebuju utáhnout!", "http://milujipraci.cz/#28"),
+    ZASRANE(R.raw.zasrane_zamrdane, "Zasrané, zamrdané!", "http://milujipraci.cz/#29");
 
-        private final int soundId;
-        private final String message;
+    private final int soundId;
+    private final String message;
+    private final String url;
 
-        private Sound(int soundId, String message) {
-            this.soundId = soundId;
-            this.message = message;
-        }
-
-        public int getSoundId() {
-            return soundId;
-        }
-
-        public String getMessage() {
-            return message;
-        }
-
-        public static List<String> getMessages() {
-            List<String> messages = new ArrayList<String>();
-            for (Sound sound : Sound.values()) {
-                messages.add(sound.getMessage());
-            }
-            return messages;
-        }
+    Sound(int soundId, String message, String url) {
+        this.soundId = soundId;
+        this.message = message;
+        this.url = url;
     }
+
+    public int getSoundId() {
+        return soundId;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public static List<String> getMessages() {
+        List<String> messages = new ArrayList<String>();
+        for (Sound sound : Sound.values()) {
+            messages.add(sound.getMessage());
+        }
+        return messages;
+    }
+}

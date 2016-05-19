@@ -38,6 +38,17 @@ public class MainActivity extends Activity {
                 mp.start();
             }
         });
+        gridview.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent share = new Intent(Intent.ACTION_SEND);
+                share.setType("text/plain");
+                share.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name));
+                share.putExtra(Intent.EXTRA_TEXT, Sound.values()[position].getUrl());
+                startActivity(Intent.createChooser(share, getString(R.string.share)));
+                return true;
+            }
+        });
     }
 
     @Override

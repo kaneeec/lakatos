@@ -13,5 +13,6 @@
 
     <string name="error_no_sound_selected">Musíte vybrat alespoň jednu hlášku!</string>
     <string name="error_cannot_play_sound">Zvuk nelze přehrát</string>
+    <string name="share">Vyberte, jak to chcete sdílet</string>
 
 </resources>
