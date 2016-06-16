@@ -11,15 +11,6 @@ android {
         versionName "1.4"
     }
 
-    signingConfigs {
-        release {
-            storeFile file(".keystore.jks")
-            storePassword "x684687Y"
-            keyAlias "default"
-            keyPassword "x684687Y"
-        }
-    }
-
     buildTypes {
         /*release {
             runProguard false
