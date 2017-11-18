@@ -13,6 +13,17 @@
 
     <string name="error_no_sound_selected">Musíte vybrat alespoň jednu hlášku!</string>
     <string name="error_cannot_play_sound">Zvuk nelze přehrát</string>
+    <string name="error_cannot_set_ringtone">Bohužel se nepodařilo nastavit hlášku jako vyzvánění</string>
+
+    <string name="ringtone_prefix">Lakatoš -\u0020</string>
+    <string name="ringtone_set">Hláška úspěšně nastavena</string>
+
+    <string name="dialog_action_share">Sdílet</string>
+    <string name="dialog_action_set_as_ringtone">Nastavit jako zvuk</string>
+    <string name="dialog_action_ringtone_ringtone">Pro vyzvánění</string>
+    <string name="dialog_action_ringtone_notification">Pro notifikace</string>
+    <string name="dialog_action_ringtone_alarm">Pro budíky</string>
+
     <string name="share">Vyberte, jak to chcete sdílet</string>
 
 </resources>
