@@ -45,10 +45,10 @@ public class Ringtones {
     }
 
     private Uri findOriginalInstanceUri(Uri ringtoneContentUri, File ringtoneFile) {
-        try (Cursor c = context.getContentResolver().query(ringtoneContentUri, new String[]{"_id", "_data"}, null, null, null)) {
+        try (Cursor c = context.getContentResolver().query(ringtoneContentUri, null, null, null, null)) {
             while (c.moveToNext()) {
-                String id = c.getString(0);
-                String ringtoneFilePath = c.getString(1);
+                String id = c.getString(c.getColumnIndex(MediaStore.MediaColumns._ID));
+                String ringtoneFilePath = c.getString(c.getColumnIndex(MediaStore.MediaColumns.DATA));
                 if (ringtoneFile.getAbsolutePath().equals(ringtoneFilePath)) {
                     return Uri.parse(ringtoneContentUri.toString() + "/" + id);
                 }
